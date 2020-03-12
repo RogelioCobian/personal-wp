@@ -1,0 +1,98 @@
+/**
+ * styles.scss
+ * ---
+ * Main `sass` file. Import here `sass` files
+ */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/**
+ * modules/variables
+ * ---
+ */
+/**
+ * Typography
+ */
+/**
+ * Colors
+ */
+/**
+ * Grid
+ */
+/**
+ * modules/mixins
+ * ---
+ */
+/**
+ * modules/fonts
+ * ---
+ * Declare fonts here
+ */
+/*
+@font-face {
+  font-family: "Font-Name";
+  src: url("fonts/font-name.eot");
+  src: url("fonts/font-name.eot?#iefix") format("embedded-opentype"),
+    url("fonts/font-name.woff") format("woff"),
+    url("fonts/font-name.ttf") format("truetype"),
+    url("fonts/font-name.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+/**
+ * partials/header
+ * ---
+ */
+#Banner {
+  width: 100vw;
+  height: 50vh;
+  background-color: #130101;
+  color: #eaeaea;
+}
+
+/**
+ * partials/footer
+ * ---
+ */
+.footer {
+  width: 100%;
+  height: 200px;
+}
+
+article {
+  background-color: #051341;
+  height: 35vh;
+}
+
+.skew {
+  height: 10vh;
+  border-bottom: 10vh solid transparent;
+  border-right: 200vh solid #051341;
+}
+
+.space {
+  height: 15vh;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 20vh;
+  background-color: #C3B091;
+}
+
+body {
+  background-color: #eaeaea;
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

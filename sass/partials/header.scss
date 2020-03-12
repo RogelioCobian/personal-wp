@@ -1,0 +1,14 @@
+/**
+ * partials/header
+ * ---
+ */
+//  @import "modules/variables";
+
+// Header container
+#Banner
+{
+  width:100vw;
+  height: 50vh;
+  background-color: $black;
+  color: $white;
+}

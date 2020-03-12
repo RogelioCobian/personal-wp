@@ -1,0 +1,28 @@
+//Empty scss in anticpation for page-home.php
+article
+{
+  background-color: $blue;
+  height: 35vh;
+  color: $white;
+}
+.skew
+{
+  // margin-left: 1vw;
+  height: 10vh;
+  border-bottom: 10vh solid transparent;
+  border-right: 200vh solid $blue;
+  // transform:skew(40deg, 0deg);
+}
+.space
+{
+  height: 15vh;
+  background-color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo
+{
+  height: 20vh;
+  background-color: $tan;
+}
